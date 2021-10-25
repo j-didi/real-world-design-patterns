@@ -7,5 +7,4 @@ Since there is a lot of misconceptions and some controversy about real world use
 ## Creational
 
 ## Structural
-- [Decorator](https://github.com/j-didi/RealWorldDesignPatterns/tree/main/Patterns/Structural/RealWorldDesignPatterns.Decorator)
-
+- <a href="https://github.com/j-didi/RealWorldDesignPatterns/tree/main/Patterns/Structural/RealWorldDesignPatterns.Decorator" target="_blank">Decorator</a>
