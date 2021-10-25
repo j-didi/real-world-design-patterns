@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldDesignPatterns.Decorator", "Patterns\Structural\RealWorldDesignPatterns.Decorator\RealWorldDesignPatterns.Decorator.csproj", "{79E5C222-D79E-405F-A141-CDDF12F19DA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Patterns", "1 - Patterns", "{0D3FDD9A-E827-4336-AA68-9C0148E943E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - API", "0 - API", "{94FB7FDD-B5ED-47E9-8EE2-32E2EAAA3C57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{14FBB397-1BF0-43B6-9B2B-8EDCAB27A0FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{62B90F1B-F586-4E8C-879F-A452BBA7EB7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{B4230B1A-1BF1-472A-8769-63B8DD51A4DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldDesignPatterns.API", "API\RealWorldDesignPatterns.API\RealWorldDesignPatterns.API.csproj", "{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79E5C222-D79E-405F-A141-CDDF12F19DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E5C222-D79E-405F-A141-CDDF12F19DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E5C222-D79E-405F-A141-CDDF12F19DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E5C222-D79E-405F-A141-CDDF12F19DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{14FBB397-1BF0-43B6-9B2B-8EDCAB27A0FF} = {0D3FDD9A-E827-4336-AA68-9C0148E943E4}
+		{62B90F1B-F586-4E8C-879F-A452BBA7EB7E} = {0D3FDD9A-E827-4336-AA68-9C0148E943E4}
+		{B4230B1A-1BF1-472A-8769-63B8DD51A4DE} = {0D3FDD9A-E827-4336-AA68-9C0148E943E4}
+		{79E5C222-D79E-405F-A141-CDDF12F19DA5} = {14FBB397-1BF0-43B6-9B2B-8EDCAB27A0FF}
+		{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B} = {94FB7FDD-B5ED-47E9-8EE2-32E2EAAA3C57}
+	EndGlobalSection
+EndGlobal
