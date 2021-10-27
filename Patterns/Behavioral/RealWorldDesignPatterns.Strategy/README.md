@@ -14,7 +14,7 @@ The solution proposes an integration service with three different shipping provi
 
 Since the integration of this providers is not the main point here, I've only print at console a message for each provider and generate a random number to represent the costs of shipping. The HTTP Client injected at this strategies implementations are only to exemplify how to deal with dependency injection inside the implementations. 
 
-The Factory have a IEnumerable of IStrategy implementations injected and the Create method choose between them based on input parameter.
+The Factory have an IEnumerable of IStrategyService implementations injected and the Create method choose between them based on input parameter.
 
 ### Pattern Diagram
 ![alt text](Images/ArchitectureDiagram.svg)
