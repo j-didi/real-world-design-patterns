@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldDesignPatterns.API", "API\RealWorldDesignPatterns.API\RealWorldDesignPatterns.API.csproj", "{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldDesignPatterns.Strategy", "Patterns\Behavioral\RealWorldDesignPatterns.Strategy\RealWorldDesignPatterns.Strategy.csproj", "{8EA6D1F3-8A6D-499F-9787-D40C0971F92A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA6D1F3-8A6D-499F-9787-D40C0971F92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA6D1F3-8A6D-499F-9787-D40C0971F92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA6D1F3-8A6D-499F-9787-D40C0971F92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA6D1F3-8A6D-499F-9787-D40C0971F92A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{14FBB397-1BF0-43B6-9B2B-8EDCAB27A0FF} = {0D3FDD9A-E827-4336-AA68-9C0148E943E4}
@@ -35,5 +41,6 @@ Global
 		{B4230B1A-1BF1-472A-8769-63B8DD51A4DE} = {0D3FDD9A-E827-4336-AA68-9C0148E943E4}
 		{79E5C222-D79E-405F-A141-CDDF12F19DA5} = {14FBB397-1BF0-43B6-9B2B-8EDCAB27A0FF}
 		{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B} = {94FB7FDD-B5ED-47E9-8EE2-32E2EAAA3C57}
+		{8EA6D1F3-8A6D-499F-9787-D40C0971F92A} = {B4230B1A-1BF1-472A-8769-63B8DD51A4DE}
 	EndGlobalSection
 EndGlobal

@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using RealWorldDesignPatterns.Decorator.DI;
+using RealWorldDesignPatterns.Strategy.DI;
 
 namespace RealWorldDesignPatterns.API
 {
@@ -18,6 +19,7 @@ namespace RealWorldDesignPatterns.API
             });
 
             services.AddAddressByZipCodeService();
+            services.AddShippingService();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
