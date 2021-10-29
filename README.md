@@ -4,6 +4,7 @@ Since there is a lot of misconceptions and some controversy about real world use
 
 ## Behavioral
 - <a href="https://github.com/j-didi/RealWorldDesignPatterns/tree/main/Patterns/Behavioral/RealWorldDesignPatterns.Strategy" target="_blank">Strategy</a>
+- <a href="https://github.com/j-didi/RealWorldDesignPatterns/tree/main/Patterns/Behavioral/RealWorldDesignPatterns.RulesEngine" target="_blank">Rules Engine</a>
 
 ## Creational
 
