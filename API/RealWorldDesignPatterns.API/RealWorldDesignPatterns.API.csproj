@@ -10,6 +10,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\Patterns\Behavioral\RealWorldDesignPatterns.Strategy\RealWorldDesignPatterns.Strategy.csproj" />
+      <ProjectReference Include="..\..\Patterns\Structural\RealWorldDesignPatterns.Adapter\RealWorldDesignPatterns.Adapter.csproj" />
       <ProjectReference Include="..\..\Patterns\Structural\RealWorldDesignPatterns.Decorator\RealWorldDesignPatterns.Decorator.csproj" />
     </ItemGroup>
 

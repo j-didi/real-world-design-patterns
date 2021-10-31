@@ -1,0 +1,5 @@
+Ryu;Male;Japan
+Ken;Male;United States
+Chun-Li;Female;China
+Zangief;Male;URSS
+Blanka;Male;Brazil

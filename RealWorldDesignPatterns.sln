@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldDesignPatterns.Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldDesignPatterns.RulesEngine", "Patterns\Behavioral\RealWorldDesignPatterns.RulesEngine\RealWorldDesignPatterns.RulesEngine.csproj", "{50A0F072-AC2B-402B-B6D3-23E9E73CC883}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldDesignPatterns.Adapter", "Patterns\Structural\RealWorldDesignPatterns.Adapter\RealWorldDesignPatterns.Adapter.csproj", "{AB837B4C-01F6-4E45-8F3A-0AA317DEEC96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{50A0F072-AC2B-402B-B6D3-23E9E73CC883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50A0F072-AC2B-402B-B6D3-23E9E73CC883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50A0F072-AC2B-402B-B6D3-23E9E73CC883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB837B4C-01F6-4E45-8F3A-0AA317DEEC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB837B4C-01F6-4E45-8F3A-0AA317DEEC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB837B4C-01F6-4E45-8F3A-0AA317DEEC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB837B4C-01F6-4E45-8F3A-0AA317DEEC96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{14FBB397-1BF0-43B6-9B2B-8EDCAB27A0FF} = {0D3FDD9A-E827-4336-AA68-9C0148E943E4}
@@ -49,5 +55,6 @@ Global
 		{34B0A09D-B8B0-46EA-B06A-59F3067D5E2B} = {94FB7FDD-B5ED-47E9-8EE2-32E2EAAA3C57}
 		{8EA6D1F3-8A6D-499F-9787-D40C0971F92A} = {B4230B1A-1BF1-472A-8769-63B8DD51A4DE}
 		{50A0F072-AC2B-402B-B6D3-23E9E73CC883} = {B4230B1A-1BF1-472A-8769-63B8DD51A4DE}
+		{AB837B4C-01F6-4E45-8F3A-0AA317DEEC96} = {14FBB397-1BF0-43B6-9B2B-8EDCAB27A0FF}
 	EndGlobalSection
 EndGlobal

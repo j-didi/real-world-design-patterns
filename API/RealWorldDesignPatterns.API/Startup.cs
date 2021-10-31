@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using RealWorldDesignPatterns.Adapter.DI;
 using RealWorldDesignPatterns.Decorator.DI;
 using RealWorldDesignPatterns.Strategy.DI;
 
@@ -15,11 +16,13 @@ namespace RealWorldDesignPatterns.API
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "RealWorldDesignPatterns.API", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "RealWorldDesignPatterns.API", Version = "v1" });
             });
 
-            services.AddAddressByZipCodeService();
-            services.AddShippingService();
+            services
+                .AddAddressByZipCodeService()
+                .AddShippingService()
+                .AddCharactersService();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
