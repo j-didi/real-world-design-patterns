@@ -2,7 +2,7 @@
 
 ## Give a Star! :star:
 
-If you like or want to support my work, please give it a star. Thanks!
+If you liked my work and want to support me, please give it a star. Thanks!
 
 ## Introduction
 In software engineering, **Design Patterns** are typical solutions to commonly occurring problems. They propose **well-defined**, **decoupled**, **reusable**, **easily testable**, and **extensible** software components. The idea was introduced in the Architecture area and then adapted for software engineering by the legendary **Gang-of-Four (GoF)**.
@@ -28,8 +28,6 @@ The code will be in **C#**, but the concept is **language agnostic**. Some langu
 ### Structural
 - [Decorator](Patterns/Structural/RealWorldDesignPatterns.Decorator)
 - [Adapter](Patterns/Structural/RealWorldDesignPatterns.Adapter)
-
----
 
 ## SOLID
 In **2000** Robert C. Martin (a.k.a. **Uncle Bob**) published the _Design Principles and Design Patterns_ paper. In this paper, he introduced the **SOLID** principles. Resuming, they are five principles that make software designs more **understandable**, **flexible**, and **maintainable**.
