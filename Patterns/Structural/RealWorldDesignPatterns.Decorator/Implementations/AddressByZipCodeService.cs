@@ -3,7 +3,7 @@ using System.Net.Http.Json;
 using System.Threading.Tasks;
 using RealWorldDesignPatterns.Decorator.Contract;
 
-namespace RealWorldDesignPatterns.Decorator.Service
+namespace RealWorldDesignPatterns.Decorator.Implementations
 {
     public class AddressByZipCodeService : IAddressByZipCodeService
     {

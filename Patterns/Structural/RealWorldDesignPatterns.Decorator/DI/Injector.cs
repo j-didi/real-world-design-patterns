@@ -2,8 +2,7 @@
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.DependencyInjection;
 using RealWorldDesignPatterns.Decorator.Contract;
-using RealWorldDesignPatterns.Decorator.Decorators;
-using RealWorldDesignPatterns.Decorator.Service;
+using RealWorldDesignPatterns.Decorator.Implementations;
 
 namespace RealWorldDesignPatterns.Decorator.DI
 {

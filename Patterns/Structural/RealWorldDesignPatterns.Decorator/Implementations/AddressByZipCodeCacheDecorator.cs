@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Caching.Memory;
 using RealWorldDesignPatterns.Decorator.Contract;
 
-namespace RealWorldDesignPatterns.Decorator.Decorators
+namespace RealWorldDesignPatterns.Decorator.Implementations
 {
     public class AddressByZipCodeCacheDecorator : IAddressByZipCodeService
     {
