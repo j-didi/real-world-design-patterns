@@ -1,4 +1,4 @@
-﻿## Decorator
+## Decorator
 
 ### Definition
 A **Decorator** is a **structural** design pattern used for dynamically adding behavior to a component without touching existing code. 
