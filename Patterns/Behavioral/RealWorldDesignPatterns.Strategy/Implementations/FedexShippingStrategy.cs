@@ -1,23 +1,14 @@
 ﻿using System;
-using System.Net.Http;
 using System.Threading.Tasks;
 using RealWorldDesignPatterns.Strategy.Contract;
 
-namespace RealWorldDesignPatterns.Strategy.Strategies
+namespace RealWorldDesignPatterns.Strategy.Implementations
 {
-    public class UpsShippingStrategy: IShippingService
+    public class FedexShippingStrategy: IShippingService
     {
-        //Only to show DI flow
-        private readonly HttpClient _httpClient;
-
-        public UpsShippingStrategy(HttpClient httpClient)
-        {
-            _httpClient = httpClient;
-        }
-        
         public Task<ShippingResult> CalculatePricingAsync(ShippingQuery query)
         {
-            Console.WriteLine("Integrating with UPS...");
+            Console.WriteLine("Integrating with FEDEX...");
             
             //Implement integration
             var price = new Random().Next(15);

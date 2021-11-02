@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using RealWorldDesignPatterns.Strategy.Contract;
-using RealWorldDesignPatterns.Strategy.Strategies;
+using RealWorldDesignPatterns.Strategy.Implementations;
 
 namespace RealWorldDesignPatterns.Strategy.Factory
 {
@@ -20,7 +20,8 @@ namespace RealWorldDesignPatterns.Strategy.Factory
             {
                 EShippingStrategy.Fedex => GetService(typeof(FedexShippingStrategy)),
                 EShippingStrategy.Dhl => GetService(typeof(DhlShippingStrategy)),
-                _ => GetService(typeof(UpsShippingStrategy))
+                EShippingStrategy.Ups => GetService(typeof(UpsShippingStrategy)),
+                _ => throw new ArgumentOutOfRangeException(nameof(strategy), strategy, null)
             };
 
         private IShippingService GetService(Type type) =>

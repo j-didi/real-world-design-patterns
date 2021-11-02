@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using RealWorldDesignPatterns.Strategy.Contract;
 using RealWorldDesignPatterns.Strategy.Factory;
-using RealWorldDesignPatterns.Strategy.Strategies;
+using RealWorldDesignPatterns.Strategy.Implementations;
 
 namespace RealWorldDesignPatterns.Strategy.DI
 {
@@ -9,10 +9,6 @@ namespace RealWorldDesignPatterns.Strategy.DI
     {
         public static IServiceCollection AddShippingService(this IServiceCollection services)
         {
-            services.AddHttpClient<FedexShippingStrategy>();
-            services.AddHttpClient<DhlShippingStrategy>();
-            services.AddHttpClient<UpsShippingStrategy>();
-            
             services.AddScoped<IShippingStrategyFactory, ShippingStrategyFactory>();
             
             services.AddScoped<IShippingService, FedexShippingStrategy>();
