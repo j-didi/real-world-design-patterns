@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace RealWorldDesignPatterns.Adapter.Services.RickAndMorty.Dtos
+namespace RealWorldDesignPatterns.Adapter.Implementations.RickAndMorty.Dtos
 {
     public class GetRickyAndMortyCharactersCharacterDto
     {

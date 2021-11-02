@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using RealWorldDesignPatterns.Adapter.Common;
 using RealWorldDesignPatterns.Adapter.Contract;
-using RealWorldDesignPatterns.Adapter.Extensions;
 
-namespace RealWorldDesignPatterns.Adapter.Services.StreetFighter.Adapters
+namespace RealWorldDesignPatterns.Adapter.Implementations.StreetFighter
 {
-    public class GetStreetFighterCharactersAdapter : IGetStreetFighterCharactersAdapter
+    public static class GetStreetFighterCharactersAdapter
     {
-        public List<GetCharactersResult> Map(IEnumerable<string> items) =>
+        public static List<GetCharactersResult> Map(IEnumerable<string> items) =>
             items.Select(line =>
             {
                 var parts = line.Split(';');

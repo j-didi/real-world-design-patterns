@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using RealWorldDesignPatterns.Adapter.Common;
 using RealWorldDesignPatterns.Adapter.Contract;
-using RealWorldDesignPatterns.Adapter.Extensions;
-using RealWorldDesignPatterns.Adapter.Services.StarWars.Dtos;
+using RealWorldDesignPatterns.Adapter.Implementations.StarWars.Dtos;
 
-namespace RealWorldDesignPatterns.Adapter.Services.StarWars.Adapters
+namespace RealWorldDesignPatterns.Adapter.Implementations.StarWars
 {
-    public class GetStarWarsCharactersAdapter : IGetStarWarsCharactersAdapter
+    public static class GetStarWarsCharactersAdapter
     {
-        public List<GetCharactersResult> Map(GetStarWarsCharactersResultDto dto) =>
+        public static List<GetCharactersResult> Map(GetStarWarsCharactersResultDto dto) =>
             dto
                 .AllPeople
                 .People

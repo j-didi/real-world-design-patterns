@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using RealWorldDesignPatterns.Adapter.Common;
 using RealWorldDesignPatterns.Adapter.Contract;
-using RealWorldDesignPatterns.Adapter.Extensions;
-using RealWorldDesignPatterns.Adapter.Services.RickAndMorty.Dtos;
+using RealWorldDesignPatterns.Adapter.Implementations.RickAndMorty.Dtos;
 
-namespace RealWorldDesignPatterns.Adapter.Services.RickAndMorty.Adapters
+namespace RealWorldDesignPatterns.Adapter.Implementations.RickAndMorty
 {
-    public class GetRickAndMortyCharactersAdapter : IGetRickAndMortyCharactersAdapter
+    public class GetRickAndMortyCharactersAdapter
     {
-        public List<GetCharactersResult> Map(GetRickAndMortyCharactersDto charactersDto) =>
-            charactersDto.Characters
+        public static List<GetCharactersResult> Map(GetRickAndMortyCharactersDto dto) =>
+            dto.Characters
                 .Take(5)
                 .Select(e => new GetCharactersResult
                 {

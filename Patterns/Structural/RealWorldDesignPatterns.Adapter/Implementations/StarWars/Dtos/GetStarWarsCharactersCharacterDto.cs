@@ -1,4 +1,4 @@
-﻿namespace RealWorldDesignPatterns.Adapter.Services.StarWars.Dtos
+﻿namespace RealWorldDesignPatterns.Adapter.Implementations.StarWars.Dtos
 {
     public class GetStarWarsCharactersCharacterDto
     {

@@ -1,4 +1,4 @@
-﻿namespace RealWorldDesignPatterns.Adapter.Services.StreetFighter.Dtos
+﻿namespace RealWorldDesignPatterns.Adapter.Implementations.StreetFighter
 {
     public class GetStreetFighterCharacterDto
     {

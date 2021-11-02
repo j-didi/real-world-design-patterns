@@ -1,11 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using RealWorldDesignPatterns.Adapter.Contract;
-using RealWorldDesignPatterns.Adapter.Services.RickAndMorty;
-using RealWorldDesignPatterns.Adapter.Services.RickAndMorty.Adapters;
-using RealWorldDesignPatterns.Adapter.Services.StarWars;
-using RealWorldDesignPatterns.Adapter.Services.StarWars.Adapters;
-using RealWorldDesignPatterns.Adapter.Services.StreetFighter;
-using RealWorldDesignPatterns.Adapter.Services.StreetFighter.Adapters;
+using RealWorldDesignPatterns.Adapter.Implementations.RickAndMorty;
+using RealWorldDesignPatterns.Adapter.Implementations.StarWars;
+using RealWorldDesignPatterns.Adapter.Implementations.StreetFighter;
 
 namespace RealWorldDesignPatterns.Adapter.DI
 {
@@ -15,13 +12,8 @@ namespace RealWorldDesignPatterns.Adapter.DI
         {
             services.AddHttpClient<GetRickAndMortyCharactersService>();
             services.AddScoped<IGetCharactersService, GetRickAndMortyCharactersService>();
-            services.AddScoped<IGetRickAndMortyCharactersAdapter, GetRickAndMortyCharactersAdapter>();
-            
             services.AddScoped<IGetCharactersService, GetStarWarsCharactersService>();
-            services.AddScoped<IGetStarWarsCharactersAdapter, GetStarWarsCharactersAdapter>();
-            
             services.AddScoped<IGetCharactersService, GetStreetFighterCharactersService>();
-            services.AddScoped<IGetStreetFighterCharactersAdapter, GetStreetFighterCharactersAdapter>();
 
             return services;
         }

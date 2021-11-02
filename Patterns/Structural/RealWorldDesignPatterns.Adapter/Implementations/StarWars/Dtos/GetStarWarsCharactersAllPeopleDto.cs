@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace RealWorldDesignPatterns.Adapter.Services.StarWars.Dtos
+namespace RealWorldDesignPatterns.Adapter.Implementations.StarWars.Dtos
 {
     public class GetStarWarsCharactersAllPeopleDto
     {

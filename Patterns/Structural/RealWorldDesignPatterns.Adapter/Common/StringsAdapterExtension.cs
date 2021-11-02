@@ -1,4 +1,4 @@
-﻿namespace RealWorldDesignPatterns.Adapter.Extensions
+﻿namespace RealWorldDesignPatterns.Adapter.Common
 {
     public static class StringsAdapterExtension
     {
