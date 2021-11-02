@@ -1,7 +1,6 @@
 ﻿using RealWorldDesignPatterns.RulesEngine.Common;
-using RealWorldDesignPatterns.RulesEngine.Contract;
 
-namespace RealWorldDesignPatterns.RulesEngine.Engine
+namespace RealWorldDesignPatterns.RulesEngine.Contract
 {
     public interface ITransactionsRuleEngine
     {

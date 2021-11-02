@@ -1,7 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using RealWorldDesignPatterns.RulesEngine.Contract;
-using RealWorldDesignPatterns.RulesEngine.Engine;
-using RealWorldDesignPatterns.RulesEngine.Rules;
+using RealWorldDesignPatterns.RulesEngine.Implementations;
+using RealWorldDesignPatterns.RulesEngine.Implementations.Engine;
+using RealWorldDesignPatterns.RulesEngine.Implementations.Rules;
 
 namespace RealWorldDesignPatterns.RulesEngine.DI
 {

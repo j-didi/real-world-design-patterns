@@ -2,9 +2,9 @@
 using System.Linq;
 using RealWorldDesignPatterns.RulesEngine.Common;
 using RealWorldDesignPatterns.RulesEngine.Contract;
-using RealWorldDesignPatterns.RulesEngine.Rules;
+using RealWorldDesignPatterns.RulesEngine.Implementations.Rules;
 
-namespace RealWorldDesignPatterns.RulesEngine.Engine
+namespace RealWorldDesignPatterns.RulesEngine.Implementations.Engine
 {
     public class TransactionsRuleEngine : ITransactionsRuleEngine
     {

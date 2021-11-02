@@ -2,7 +2,7 @@
 using RealWorldDesignPatterns.RulesEngine.Common;
 using RealWorldDesignPatterns.RulesEngine.Contract;
 
-namespace RealWorldDesignPatterns.RulesEngine.Rules
+namespace RealWorldDesignPatterns.RulesEngine.Implementations.Rules
 {
     public class TransactionMustNotBeDuplicatedRule: ITransactionRule
     {
