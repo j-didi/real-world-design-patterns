@@ -15,6 +15,12 @@ Create a service to evaluate a series of rules before performing a financial tra
 3. The transaction must respect an overnight transaction value limit
 4. Must not process duplicated transactions
 
+### Solution
+1. Extract a contract for rules
+2. Define a method to aggregate validation results
+3. Implement each rule following the contract specification
+4. Create the **Engine** to apply the rules and return the result
+
 ### Pattern Diagram
 ![alt text](Images/RulesEngine.svg)
 
